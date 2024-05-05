@@ -219,7 +219,7 @@ class _LaboratoryPageState extends State<LaboratoryPage> {
                     ),
                   );
                   if (dialog == true) {
-                    if (getValid('${text.text}saltff') == '605f372') {
+                    if (text.text) == '605f372') {
                       await showOkDialog(context, 'Successful!');
 
                       final prefs = await SharedPreferences.getInstance();
